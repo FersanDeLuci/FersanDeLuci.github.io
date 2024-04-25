@@ -1,0 +1,201 @@
+body{
+	font-family: "Roboto Slab", serif;
+}
+.navbar-nav.mr-auto .nav-item .nav-link {
+	font-family: "Quicksand", sans-serif;
+	color: #FFE8D1;
+	font-size: medium;
+}
+.navbar.navbar-expand-lg.navbar-light .navbar-brand {
+	color: #68C3D4;
+	font-size: xx-large;
+}
+
+.navbar.navbar-expand-lg.navbar-dark .navbar-brand {
+	color: #68C3D4;
+	font-size: xx-large;
+}
+
+.navbar.navbar-expand-lg  {
+	color: #568EA3;
+	background-color: #568EA3;
+}
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+	text-decoration: none;
+	border-radius: 50px;
+	color: #826251;
+	background-color: #DFFFFF;
+}
+.jumbotron  {
+	background-color: #826251;
+}
+.jumbotron.jumbotron-fluid.text-center .display-4 {
+	font-family: "Quicksand", sans-serif;
+	color: #FFE8D1;
+	font-weight: 400;
+}
+.jumbotron.jumbotron-fluid.text-center .lead {
+	
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: medium;
+}
+.jumbotron.jumbotron-fluid.text-center p {
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-size: small;
+}
+.card .card-body  {
+	background-color: #826251;
+}
+
+.card .card-body .card-title, .col-lg-5 .card-body .card-title{
+	font-family: "Quicksand", sans-serif;
+	font-size: xx-large;
+	color: #FFFFFF;
+}
+.card .card-body .card-text,.col-lg-5 .card-body .card-text {
+	color: #FFE8D1;
+	font-size: small;
+}
+
+.card .card-body .btn.btn-primary,.row .col-lg-3 .btn.btn-primary {
+	background-color: #68C3D4;
+	border-color: #68C3D4;
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+.mySlides{
+  display:none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;	
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+footer {
+	background-color: #568EA3;
+}
+footer .row {
+	background-color: #568EA3;
+}
+
+.row .col-lg-3 iframe {
+	padding-top: 10px;
+}
+
+.row .col-lg-3 h6{
+	font-family: "Quicksand", sans-serif;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 10px;
+	color: #68C3D4;
+	font-size: small;
+}
+.row .col-lg-3 p{
+	padding-left: 20px;
+	padding-right: 10px;
+	color: #FFFFFF;
+	font-size: x-small;
+}
+.caption-container {
+	height: 50px;
+}
+.col-lg-3 .row .col-lg-4 {
+	background-color: #568EA3;
+}
+.row {
+	background-color: #826251;
+}
+.col-lg-4 .card .card-img-top.rounded-circle.img-fluid {
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+.row .col-lg-4 .card {
+	background-color: #826251;
+	padding: 20px;
+}
+.row .col-lg-3 .btn.btn-primary {
+	padding:40px;
+}
+.col-lg-5 .card-body .card-title {
+	text-align: center;
+	padding: 20px;
+}
